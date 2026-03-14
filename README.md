@@ -1,11 +1,25 @@
 # GameMap Vibe Annotator
 
 ゲームマップに手書き・テキストアノテーションを重畳管理するツール。
+バイブコーディングのみで作成！！！
+
+
+## 技術スタック (Tech Stack)
+
+このプロジェクトは以下の技術で構築されています：
+
+- **Frontend**: [React](https://react.dev/) 18
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+
 
 ## セットアップ
 
 ```bash
+# モジュールをローカルにインストール
 npm install
+# 開発環境のwebを起動
 npm run dev
 ```
 
@@ -14,7 +28,9 @@ npm run dev
 ## ビルド
 
 ```bash
+# ビルド　ー＞　./distに完成ファイルが出力
 npm run build
+# 本番環境のwebを起動
 npm run preview
 ```
 
