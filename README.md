@@ -17,7 +17,10 @@
 
 ## セットアップ
 
-```bash
+c:\map\（ここに全てのソースを置く）
+
+```powershell
+cd c:\map
 # モジュールをローカルにインストール
 npm install
 # 開発環境のwebを起動
@@ -28,7 +31,7 @@ npm run dev
 
 ## ビルド
 
-```bash
+```powershell
 # ビルド　ー＞　./distに完成ファイルが出力
 npm run build
 # 本番環境のwebを起動
